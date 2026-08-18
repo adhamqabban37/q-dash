@@ -1,0 +1,65 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\Tyson\\Desktop\\Agentic dash\\adapters\\claude-code\\qdash-hook.js\""
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\Tyson\\Desktop\\Agentic dash\\adapters\\claude-code\\qdash-hook.js\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\Tyson\\Desktop\\Agentic dash\\adapters\\claude-code\\qdash-hook.js\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\Tyson\\Desktop\\Agentic dash\\adapters\\claude-code\\qdash-hook.js\""
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\Tyson\\Desktop\\Agentic dash\\adapters\\claude-code\\qdash-hook.js\""
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\Tyson\\Desktop\\Agentic dash\\adapters\\claude-code\\qdash-hook.js\""
+          }
+        ]
+      }
+    ]
+  }
+}

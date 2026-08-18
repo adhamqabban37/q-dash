@@ -1,0 +1,15 @@
+{
+  "schemaId": "qdash.agent-event.v1",
+  "agentTypes": ["claude-code", "gemini", "hermes", "human"],
+  "eventTypes": ["session_start", "tool_call", "file_change", "session_end", "error"],
+  "legacySources": { "claude-code": "claude-code", "gemini-cli": "gemini", "hermes": "hermes", "manual": "human" },
+  "legacyTypes": {
+    "session_start": { "eventType": "session_start" },
+    "session_end":   { "eventType": "session_end" },
+    "tool_call":     { "eventType": "tool_call" },
+    "skill_invoked": { "eventType": "tool_call", "kind": "skill_invoked" },
+    "file_edit":     { "eventType": "file_change", "kind": "edit" },
+    "command_run":   { "eventType": "tool_call", "kind": "command_run" },
+    "memory_read":   { "eventType": "tool_call", "kind": "memory_read" }
+  }
+}

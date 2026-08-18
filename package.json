@@ -1,0 +1,19 @@
+{
+  "name": "q-dash-core-engine",
+  "version": "1.0.0",
+  "description": "Q Dash Core Engine - Phase 1 Filesystem Intelligence",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "reindex": "node reindex.js",
+    "sync": "node sync.js",
+    "build": "cd ui && npm run build",
+    "dev": "cd ui && npm run dev"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "chokidar": "^5.0.0",
+    "gray-matter": "^4.0.3",
+    "zod": "^4.4.3"
+  }
+}

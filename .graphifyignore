@@ -1,0 +1,5 @@
+# Q DASH generated/state data — not source code, keep out of the knowledge graph
+output/
+project-memory/
+engine.log
+ui/public/api-cache/
